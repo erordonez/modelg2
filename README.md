@@ -17,7 +17,7 @@ Integrantes
 ## Codacy Badge
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/af2f756f187b447b946c650f9348388b)](https://www.codacy.com/app/eroaricker/modelg2?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=erordonez/modelg2&amp;utm_campaign=Badge_Grade)
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/af2f756f187b447b946c650f9348388b)](https://www.codacy.com/app/eroaricker/modelg2?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=erordonez/modelg2&amp;utm_campaign=Badge_Coverage)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/86a9f417e5bc423f9ae0ca4143ba88e5)](https://www.codacy.com/app/eroaricker/modelg2?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=erordonez/modelg2&amp;utm_campaign=Badge_Coverage)
 
 ## Snyk
 [![Known Vulnerabilities](https://snyk.io/test/github/erordonez/modelg2/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/erordonez/modelg2?targetFile=requirements.txt)
