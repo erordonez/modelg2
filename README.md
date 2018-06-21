@@ -13,3 +13,11 @@ Integrantes
 
 ## TravisCi
 [![Build Status](https://travis-ci.org/erordonez/modelg2.svg?branch=master)](https://travis-ci.org/erordonez/modelg2)
+
+## Codacy Badge
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/af2f756f187b447b946c650f9348388b)](https://www.codacy.com/app/eroaricker/modelg2?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=erordonez/modelg2&amp;utm_campaign=Badge_Grade)
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/af2f756f187b447b946c650f9348388b)](https://www.codacy.com/app/eroaricker/modelg2?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=erordonez/modelg2&amp;utm_campaign=Badge_Coverage)
+
+
+
