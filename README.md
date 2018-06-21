@@ -5,7 +5,7 @@
 Integrantes
 - Luis Constante
 - Darwin Cifuentes
-- Ricardo Ordoñez
+- Ricardo Ordoñez A
 
 ## Codebeat
 [![codebeat badge](https://codebeat.co/badges/722b274f-fee4-4646-850b-0f32b429bfc4)](https://codebeat.co/projects/github-com-erordonez-model_g2-master)
