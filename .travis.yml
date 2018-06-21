@@ -6,4 +6,4 @@
   script:
     - nosetests --rednose _test_ -v -d
   after_success:
-    - python-codacy-coverage -r coverage.xml -d src/ -t BxxC6nOP4ePazyrSjqmvTA
+    - python-codacy-coverage -r coverage.xml -d src/ -t 86a9f417e5bc423f9ae0ca4143ba88e5
