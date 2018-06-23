@@ -10,7 +10,6 @@ testPercentage=0.2  #Fraction of data to be taken as Teste data
 ##############################################################################
 
 ##################Parameters to set according with available##################
-todelete = '_id'                #Mongodb index name to be deleted
 validdate='2018-05-01 00:00:00' #Date when valid date starts
 dateindex='Time'                #Column where date is stored
 temperature1='TemperaturaDHT'   #Column where temperature 1 is stored
