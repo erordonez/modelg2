@@ -2,7 +2,7 @@ import pandas as pd
 
 class Method2:
     def method01(data,steps,concentracion): #Build scenary with varaible to be estimated
-        long = len(data.index)
+        long=len(data.index)
         scene = pd.DataFrame(index=data.index[steps:long])
         for i in range(0,steps+1):
             scene[i]=data.ix[data.index[i:long-steps+i],concentracion].values

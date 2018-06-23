@@ -9,6 +9,12 @@ historyStep=5       #Number of time steps to go back
 testPercentage=0.2  #Fraction of data to be taken as Teste data
 ##############################################################################
 
+#period = str(sys.argv[1])
+#historyStep = sys.argv[2]
+#testPercentage = float(sys.argv[3])
+#method = sys.argv[4]
+#print('Período: ',period,' History Step: ',historyStep,' Test Percent: ',testPercentage,' Method: ',method)
+
 ##################Parameters to set according with available##################
 validdate='2018-05-01 00:00:00' #Date when valid date starts
 dateindex='Time'                #Column where date is stored
@@ -33,8 +39,6 @@ train = dfx.drop(test.index)
 dfx_train=Scenary.resampleData(train,period,columntime)
 dfx_test=Scenary.resampleData(test,period,columntime)
 ##############################################################################
-print(len(train.index))
-print(len(test.index))
 
 ##########################Assembly posible scenaries##########################
 if method==1:
