@@ -1,7 +1,7 @@
 import pandas as pd
 
 class Prepare():
-    def prepare(data, id, x,datef,temp1,temp2):
+    def prepare(data, x,datef,temp1,temp2):
 
         #data.drop(columns=[id],inplace=True) #Eliminate Mongodb index from dataframe
 

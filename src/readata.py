@@ -25,7 +25,7 @@ df=pd.read_csv('../Data/DT2.csv') #read data from csv file
 
 ###########################Processing Data####################################
 #Procesisng data to eliminate innecesary data and calculating aditional data
-dfx=Prepare.prepare(df,todelete,dateindex,validdate,temperature1,temperature2)
+dfx=Prepare.prepare(df,dateindex,validdate,temperature1,temperature2)
 ##############################################################################
 
 ########################Creating Test and Training Data#######################
