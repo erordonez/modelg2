@@ -5,7 +5,7 @@ class Scenary():
     def resampleData(data,period,timeColumn):
         resampled = data.resample(period,on=timeColumn).mean() #Resample the data for given time period
         resampled['Hour'] = resampled.index.time #Retrieve the hour
-        scene01=resampled.groupby('Hour').mean() #create an average values for every time step of any day
+        scene01=resampled.groupby('Hour').mean() #Create an average values for every time step of any day
         return scene01
 
 
