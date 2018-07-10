@@ -19,6 +19,10 @@ class Scenary():
             temp = data.ix[data.index[i:i + steps+1], concentracion].values
             temp2 = np.transpose(temp)
             scene.ix[scene.index[i]] = temp2
+        scene['Year'] = scene.index.year
+        scene['Month'] = scene.index.month
+        scene['Day'] = scene.index.day
+        scene['Time'] = scene.index.hour * 100 + scene.index.minute
         return scene
 
     def scene2(data, steps, variable1,variable2):  #Build scenary with two variables
@@ -31,6 +35,10 @@ class Scenary():
             temp3 = np.transpose(temp2)
             scene.ix[scene.index[i]] = temp3
         scene.ix[scene.index[0:long - steps], 2 * steps] = data.ix[data.index[steps:long], variable2]
+        scene['Year'] = scene.index.year
+        scene['Month'] = scene.index.month
+        scene['Day'] = scene.index.day
+        scene['Time'] = scene.index.hour * 100 + scene.index.minute
         return scene
 
     def scene3(data, steps, variable1, variable2,variable3):  #Build scenary with three variables
@@ -44,6 +52,10 @@ class Scenary():
             temp5 = np.transpose(temp4)
             scene.ix[scene.index[i]] = temp5
         scene.ix[scene.index[0:long - steps], 3 * steps] = data.ix[data.index[steps:long], variable3]
+        scene['Year'] = scene.index.year
+        scene['Month'] = scene.index.month
+        scene['Day'] = scene.index.day
+        scene['Time'] = scene.index.hour * 100 + scene.index.minute
         return scene
 
     def scene4(data, steps, variable1, variable2, variable3, variable4):  #Build scenary with three variables
@@ -58,6 +70,10 @@ class Scenary():
             temp6 = np.transpose(temp5)
             scene.ix[scene.index[i]] = temp6
         scene.ix[scene.index[0:long - steps], 4 * steps] = data.ix[data.index[steps:long], variable4]
+        scene['Year'] = scene.index.year
+        scene['Month'] = scene.index.month
+        scene['Day'] = scene.index.day
+        scene['Time'] = scene.index.hour * 100 + scene.index.minute
         return scene
 
     def scene5(data, steps, variable1, variable2, variable3, variable4,variable5):  #Build scenary with three variables
@@ -73,4 +89,8 @@ class Scenary():
             temp7 = np.transpose(temp6)
             scene.ix[scene.index[i]] = temp7
         scene.ix[scene.index[0:long - steps], 5 * steps] = data.ix[data.index[steps:long], variable5]
+        scene['Year'] = scene.index.year
+        scene['Month'] = scene.index.month
+        scene['Day'] = scene.index.day
+        scene['Time'] = scene.index.hour * 100 + scene.index.minute
         return scene
